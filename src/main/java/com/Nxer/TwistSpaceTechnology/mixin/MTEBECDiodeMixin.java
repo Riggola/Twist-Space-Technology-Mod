@@ -4,10 +4,11 @@ import java.util.EnumSet;
 import java.util.HashSet;
 import java.util.Set;
 
+import org.objectweb.asm.Opcodes;
+
 import net.minecraftforge.fluids.Fluid;
 import net.minecraftforge.fluids.FluidStack;
 
-import org.objectweb.asm.Opcodes;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.Unique;
